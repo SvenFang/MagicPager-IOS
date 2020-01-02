@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bPy-Fq-Nmi">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="QTM-YN-s2v">
+            <objects>
+                <navigationController id="bPy-Fq-Nmi" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xqc-bX-d0w">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Wed-CY-LuY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sgz-Ez-LhG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1272" y="159"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24E-GG-IJ5">
+                                <rect key="frame" x="37" y="186" width="340" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="WpN-Ix-ypf"/>
+                                </constraints>
+                                <state key="normal" title="调试页面"/>
+                                <connections>
+                                    <action selector="testWidget:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0rP-vi-T3W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9d-KS-ebC">
+                                <rect key="frame" x="37" y="266" width="340" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hMU-oi-oTq"/>
+                                </constraints>
+                                <state key="normal" title="宝箱页面"/>
+                                <connections>
+                                    <action selector="testAd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4UT-iS-kUB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmW-qR-Sqe">
+                                <rect key="frame" x="37" y="346" width="340" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AHE-J5-ygq"/>
+                                </constraints>
+                                <state key="normal" title="跳到动态页面"/>
+                                <connections>
+                                    <action selector="testDynamic:" destination="BYZ-38-t0r" eventType="touchUpInside" id="os0-CS-Mb3"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t09-Sn-miy">
+                                <rect key="frame" x="87" y="472" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bmW-qR-Sqe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="B8b-6I-4Pq"/>
+                            <constraint firstItem="T9d-KS-ebC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="Bf8-4P-3ow"/>
+                            <constraint firstItem="bmW-qR-Sqe" firstAttribute="top" secondItem="T9d-KS-ebC" secondAttribute="bottom" constant="30" id="K9m-4H-sGm"/>
+                            <constraint firstItem="24E-GG-IJ5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="98" id="SIw-Ir-yhl"/>
+                            <constraint firstItem="24E-GG-IJ5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="UFR-GK-GFq"/>
+                            <constraint firstItem="T9d-KS-ebC" firstAttribute="centerX" secondItem="24E-GG-IJ5" secondAttribute="centerX" id="Vrs-Qh-HFE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="24E-GG-IJ5" secondAttribute="trailing" constant="37" id="a0i-Nb-k8D"/>
+                            <constraint firstItem="bmW-qR-Sqe" firstAttribute="centerX" secondItem="24E-GG-IJ5" secondAttribute="centerX" id="gOd-9p-NJg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bmW-qR-Sqe" secondAttribute="trailing" constant="37" id="lXz-lN-Sv4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T9d-KS-ebC" secondAttribute="trailing" constant="37" id="p21-So-pTZ"/>
+                            <constraint firstItem="T9d-KS-ebC" firstAttribute="top" secondItem="24E-GG-IJ5" secondAttribute="bottom" constant="30" id="pBc-P8-5lM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gpZ-5P-uKw"/>
+                    <connections>
+                        <outlet property="image" destination="t09-Sn-miy" id="pmk-qx-g42"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-481.15942028985512" y="158.70535714285714"/>
+        </scene>
+    </scenes>
+</document>

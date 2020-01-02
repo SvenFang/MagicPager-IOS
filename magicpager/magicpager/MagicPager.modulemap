@@ -1,0 +1,24 @@
+//
+//  magicpager.modulemap
+//  magicpager
+//
+//  Created by Sven on 20/12/2019.
+//  Copyright © 2019 Sven. All rights reserved.
+//
+
+
+framework module MagicPager {
+    umbrella header "magicpager.h"
+    module * { export * }
+}
+
+//framework module MagicPager {
+//  umbrella header "MagicPager-umbrella.h"
+//
+//  export *
+//  module * { export * }
+//
+//  explicit module Private {
+//    header "CGImage+WebP.h"
+//  }
+//}

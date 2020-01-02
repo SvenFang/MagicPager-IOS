@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2602A8CE239E836A00AB1A47 /* ReuseUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2602A8CD239E836A00AB1A47 /* ReuseUtil.swift */; };
+		260EFFCF237C100800347E9E /* MagicViewCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EFFCE237C100800347E9E /* MagicViewCreator.swift */; };
+		2613CFCB22FBC86B00703388 /* MagicPagerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613CFCA22FBC86B00703388 /* MagicPagerManager.swift */; };
+		2613CFCD22FBC94000703388 /* LengthUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613CFCC22FBC94000703388 /* LengthUtil.swift */; };
+		2613CFD122FBF6FA00703388 /* ILog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613CFD022FBF6FA00703388 /* ILog.swift */; };
+		2613CFD322FBF75A00703388 /* IActionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613CFD222FBF75A00703388 /* IActionProvider.swift */; };
+		2613CFD522FBF79F00703388 /* IMagicProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613CFD422FBF79F00703388 /* IMagicProvider.swift */; };
+		26163780239F7CEF000AFC0C /* JSCoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2616377F239F7CEF000AFC0C /* JSCoreManager.swift */; };
+		26207DEA235EDA320063EC00 /* WidgetsTranform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26207DE9235EDA320063EC00 /* WidgetsTranform.swift */; };
+		262ECED1230A422F00FB1B29 /* MagicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262ECED0230A422F00FB1B29 /* MagicCell.swift */; };
+		264354B423A7718A0078D4F1 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264354B323A7718A0078D4F1 /* URLExtension.swift */; };
+		2674184E237D416A006A6250 /* SliderWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2674184D237D416A006A6250 /* SliderWidgetModel.swift */; };
+		26741850237D42F5006A6250 /* MagicSilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2674184F237D42F5006A6250 /* MagicSilder.swift */; };
+		26741852237D630E006A6250 /* MagicCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26741851237D630E006A6250 /* MagicCollectionCell.swift */; };
+		267EAB882320FCFF00AFCC77 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EAB872320FCFF00AFCC77 /* ColorUtil.swift */; };
+		267FCBF92302C3DE0085C5F8 /* WidgetModelMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FCBF82302C3DE0085C5F8 /* WidgetModelMapping.swift */; };
+		2685893C23A0D2500058256C /* UIViewExten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2685893B23A0D2500058256C /* UIViewExten.swift */; };
+		26865315237E4A0D0064460F /* CarouselDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26865314237E4A0D0064460F /* CarouselDotsView.swift */; };
+		2690157F2303A86000BAA04A /* MagicBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2690157E2303A86000BAA04A /* MagicBlank.swift */; };
+		269015812303A88300BAA04A /* IMagic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269015802303A88300BAA04A /* IMagic.swift */; };
+		269015832303A89B00BAA04A /* ICollectionMagic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269015822303A89B00BAA04A /* ICollectionMagic.swift */; };
+		269015852303A8D900BAA04A /* MagicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269015842303A8D900BAA04A /* MagicButton.swift */; };
+		269015872303A8E200BAA04A /* MagicImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269015862303A8E200BAA04A /* MagicImage.swift */; };
+		269015892303A8EE00BAA04A /* MagicText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269015882303A8EE00BAA04A /* MagicText.swift */; };
+		2690158B2303A8FF00BAA04A /* MagicNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2690158A2303A8FF00BAA04A /* MagicNavigationBar.swift */; };
+		2690158D2303A91E00BAA04A /* MagicCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2690158C2303A91E00BAA04A /* MagicCarousel.swift */; };
+		2690158F2303A94600BAA04A /* MagicFlexboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2690158E2303A94600BAA04A /* MagicFlexboxView.swift */; };
+		269015912303A95000BAA04A /* MagicFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269015902303A95000BAA04A /* MagicFrame.swift */; };
+		269015932303A95A00BAA04A /* MagicGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269015922303A95A00BAA04A /* MagicGrid.swift */; };
+		269015952303A96300BAA04A /* MagicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269015942303A96300BAA04A /* MagicList.swift */; };
+		269F9705237EAA9700F7A01C /* CollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269F9704237EAA9700F7A01C /* CollectionViewWaterfallLayout.swift */; };
+		26A44A2923AC6D4C0044B892 /* MagicPager.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 26A44A2823AC6D4C0044B892 /* MagicPager.modulemap */; };
+		26B241DE22F42FD300E01565 /* MagicPagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B241DD22F42FD300E01565 /* MagicPagerModel.swift */; };
+		26C7A25822F4201500370369 /* magicpager.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C7A25622F4201500370369 /* magicpager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C9B41F239A51B300060F5B /* LinearWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C9B41E239A51B300060F5B /* LinearWidgetModel.swift */; };
+		26C9B421239A543000060F5B /* MagicLinear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C9B420239A543000060F5B /* MagicLinear.swift */; };
+		26CDF78A23A2411200EA8CFD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26C7A25722F4201500370369 /* Info.plist */; };
+		26CDF79023A24FAE00EA8CFD /* PagerRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CDF78F23A24FAE00EA8CFD /* PagerRequestData.swift */; };
+		26D4A46C22F43A6000A7CD66 /* BaseWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A46B22F43A6000A7CD66 /* BaseWidgetModel.swift */; };
+		26D4A46E22F43AA400A7CD66 /* MagicEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A46D22F43AA400A7CD66 /* MagicEnum.swift */; };
+		26D4A47022F4422F00A7CD66 /* BlankWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A46F22F4422F00A7CD66 /* BlankWidgetModel.swift */; };
+		26D4A47222F442D200A7CD66 /* ButtonWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A47122F442D200A7CD66 /* ButtonWidgetModel.swift */; };
+		26D4A47422F442E000A7CD66 /* ImageWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A47322F442E000A7CD66 /* ImageWidgetModel.swift */; };
+		26D4A47622F442EB00A7CD66 /* TextWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A47522F442EB00A7CD66 /* TextWidgetModel.swift */; };
+		26D4A47822F442FD00A7CD66 /* NavigationBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A47722F442FD00A7CD66 /* NavigationBarModel.swift */; };
+		26D4A47A22F4438600A7CD66 /* BaseCollectionWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A47922F4438600A7CD66 /* BaseCollectionWidgetModel.swift */; };
+		26D4A47C22F443BC00A7CD66 /* ListWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A47B22F443BC00A7CD66 /* ListWidgetModel.swift */; };
+		26D4A47E22F4465E00A7CD66 /* CarouselWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A47D22F4465E00A7CD66 /* CarouselWidgetModel.swift */; };
+		26D4A48022F4483400A7CD66 /* FlexboxWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A47F22F4483400A7CD66 /* FlexboxWidgetModel.swift */; };
+		26D4A48222F44A3800A7CD66 /* GridWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A48122F44A3800A7CD66 /* GridWidgetModel.swift */; };
+		26D4A48422F44A9500A7CD66 /* FrameWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A48322F44A9500A7CD66 /* FrameWidgetModel.swift */; };
+		26D4A48622F44FFC00A7CD66 /* MagicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A48522F44FFC00A7CD66 /* MagicViewController.swift */; };
+		26D4A48822F4503E00A7CD66 /* MagicContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4A48722F4503E00A7CD66 /* MagicContainerView.swift */; };
+		26DA400523A8E3FC0035E75A /* JSCoreContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DA400423A8E3FC0035E75A /* JSCoreContext.swift */; };
+		26E0638523A33CE300809901 /* WidgetTranform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E0638423A33CE300809901 /* WidgetTranform.swift */; };
+		26F10E8123A9C46200DF515C /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F10E8023A9C46200DF515C /* UIViewControllerExtension.swift */; };
+		26F51D8A23A37D6B008B091A /* SvgaWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F51D8923A37D6B008B091A /* SvgaWidgetModel.swift */; };
+		26F51D8C23A383DE008B091A /* MagicSvga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F51D8B23A383DE008B091A /* MagicSvga.swift */; };
+		97ABCA63E1C6A5D1D0A9E6E5 /* Pods_magicpager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD8EB17258D20C018305E81 /* Pods_magicpager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2602A8CD239E836A00AB1A47 /* ReuseUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseUtil.swift; sourceTree = "<group>"; };
+		260EFFCE237C100800347E9E /* MagicViewCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicViewCreator.swift; sourceTree = "<group>"; };
+		2613CFCA22FBC86B00703388 /* MagicPagerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicPagerManager.swift; sourceTree = "<group>"; };
+		2613CFCC22FBC94000703388 /* LengthUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthUtil.swift; sourceTree = "<group>"; };
+		2613CFD022FBF6FA00703388 /* ILog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILog.swift; sourceTree = "<group>"; };
+		2613CFD222FBF75A00703388 /* IActionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IActionProvider.swift; sourceTree = "<group>"; };
+		2613CFD422FBF79F00703388 /* IMagicProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMagicProvider.swift; sourceTree = "<group>"; };
+		2616377F239F7CEF000AFC0C /* JSCoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSCoreManager.swift; sourceTree = "<group>"; };
+		26207DE9235EDA320063EC00 /* WidgetsTranform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsTranform.swift; sourceTree = "<group>"; };
+		262ECED0230A422F00FB1B29 /* MagicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCell.swift; sourceTree = "<group>"; };
+		264354B323A7718A0078D4F1 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		2674184D237D416A006A6250 /* SliderWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderWidgetModel.swift; sourceTree = "<group>"; };
+		2674184F237D42F5006A6250 /* MagicSilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSilder.swift; sourceTree = "<group>"; };
+		26741851237D630E006A6250 /* MagicCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCollectionCell.swift; sourceTree = "<group>"; };
+		267EAB872320FCFF00AFCC77 /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
+		267FCBF82302C3DE0085C5F8 /* WidgetModelMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetModelMapping.swift; sourceTree = "<group>"; };
+		2684425F23B06887009B3CC3 /* MagicPager.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = MagicPager.podspec; path = ../MagicPager.podspec; sourceTree = "<group>"; };
+		2685893B23A0D2500058256C /* UIViewExten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExten.swift; sourceTree = "<group>"; };
+		26865314237E4A0D0064460F /* CarouselDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselDotsView.swift; sourceTree = "<group>"; };
+		2690157E2303A86000BAA04A /* MagicBlank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBlank.swift; sourceTree = "<group>"; };
+		269015802303A88300BAA04A /* IMagic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMagic.swift; sourceTree = "<group>"; };
+		269015822303A89B00BAA04A /* ICollectionMagic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICollectionMagic.swift; sourceTree = "<group>"; };
+		269015842303A8D900BAA04A /* MagicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicButton.swift; sourceTree = "<group>"; };
+		269015862303A8E200BAA04A /* MagicImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicImage.swift; sourceTree = "<group>"; };
+		269015882303A8EE00BAA04A /* MagicText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicText.swift; sourceTree = "<group>"; };
+		2690158A2303A8FF00BAA04A /* MagicNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicNavigationBar.swift; sourceTree = "<group>"; };
+		2690158C2303A91E00BAA04A /* MagicCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCarousel.swift; sourceTree = "<group>"; };
+		2690158E2303A94600BAA04A /* MagicFlexboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicFlexboxView.swift; sourceTree = "<group>"; };
+		269015902303A95000BAA04A /* MagicFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicFrame.swift; sourceTree = "<group>"; };
+		269015922303A95A00BAA04A /* MagicGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicGrid.swift; sourceTree = "<group>"; };
+		269015942303A96300BAA04A /* MagicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicList.swift; sourceTree = "<group>"; };
+		269F9704237EAA9700F7A01C /* CollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
+		26A44A2823AC6D4C0044B892 /* MagicPager.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = MagicPager.modulemap; sourceTree = "<group>"; };
+		26B241DD22F42FD300E01565 /* MagicPagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicPagerModel.swift; sourceTree = "<group>"; };
+		26C7A25322F4201500370369 /* magicpager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = magicpager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C7A25622F4201500370369 /* magicpager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = magicpager.h; sourceTree = "<group>"; };
+		26C7A25722F4201500370369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C9B41E239A51B300060F5B /* LinearWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearWidgetModel.swift; sourceTree = "<group>"; };
+		26C9B420239A543000060F5B /* MagicLinear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicLinear.swift; sourceTree = "<group>"; };
+		26CDF78F23A24FAE00EA8CFD /* PagerRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerRequestData.swift; sourceTree = "<group>"; };
+		26D4A46B22F43A6000A7CD66 /* BaseWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A46D22F43AA400A7CD66 /* MagicEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicEnum.swift; sourceTree = "<group>"; };
+		26D4A46F22F4422F00A7CD66 /* BlankWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A47122F442D200A7CD66 /* ButtonWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A47322F442E000A7CD66 /* ImageWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A47522F442EB00A7CD66 /* TextWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A47722F442FD00A7CD66 /* NavigationBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModel.swift; sourceTree = "<group>"; };
+		26D4A47922F4438600A7CD66 /* BaseCollectionWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A47B22F443BC00A7CD66 /* ListWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A47D22F4465E00A7CD66 /* CarouselWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A47F22F4483400A7CD66 /* FlexboxWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexboxWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A48122F44A3800A7CD66 /* GridWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A48322F44A9500A7CD66 /* FrameWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWidgetModel.swift; sourceTree = "<group>"; };
+		26D4A48522F44FFC00A7CD66 /* MagicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicViewController.swift; sourceTree = "<group>"; };
+		26D4A48722F4503E00A7CD66 /* MagicContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicContainerView.swift; sourceTree = "<group>"; };
+		26DA400423A8E3FC0035E75A /* JSCoreContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSCoreContext.swift; sourceTree = "<group>"; };
+		26E0638423A33CE300809901 /* WidgetTranform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTranform.swift; sourceTree = "<group>"; };
+		26F10E8023A9C46200DF515C /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		26F51D8923A37D6B008B091A /* SvgaWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvgaWidgetModel.swift; sourceTree = "<group>"; };
+		26F51D8B23A383DE008B091A /* MagicSvga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSvga.swift; sourceTree = "<group>"; };
+		3D6DE1FACD8E6B40E8D2851E /* Pods-magicpager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magicpager.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-magicpager/Pods-magicpager.debug.xcconfig"; sourceTree = "<group>"; };
+		50B71D5898228C10BE7C7F02 /* Pods-magicpager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-magicpager.release.xcconfig"; path = "../Pods/Target Support Files/Pods-magicpager/Pods-magicpager.release.xcconfig"; sourceTree = "<group>"; };
+		9CD8EB17258D20C018305E81 /* Pods_magicpager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_magicpager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C7A25022F4201500370369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97ABCA63E1C6A5D1D0A9E6E5 /* Pods_magicpager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2613CFD822FBFCE400703388 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				26865310237E381A0064460F /* layout */,
+				2613CFD922FBFCE400703388 /* collection */,
+				2613CFDA22FBFCE400703388 /* base */,
+				269015802303A88300BAA04A /* IMagic.swift */,
+				269015822303A89B00BAA04A /* ICollectionMagic.swift */,
+				262ECED0230A422F00FB1B29 /* MagicCell.swift */,
+				26741851237D630E006A6250 /* MagicCollectionCell.swift */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		2613CFD922FBFCE400703388 /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				26865313237E49F10064460F /* view */,
+				2690158C2303A91E00BAA04A /* MagicCarousel.swift */,
+				2690158E2303A94600BAA04A /* MagicFlexboxView.swift */,
+				269015902303A95000BAA04A /* MagicFrame.swift */,
+				269015922303A95A00BAA04A /* MagicGrid.swift */,
+				269015942303A96300BAA04A /* MagicList.swift */,
+				2674184F237D42F5006A6250 /* MagicSilder.swift */,
+				26C9B420239A543000060F5B /* MagicLinear.swift */,
+			);
+			path = collection;
+			sourceTree = "<group>";
+		};
+		2613CFDA22FBFCE400703388 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				2690157E2303A86000BAA04A /* MagicBlank.swift */,
+				269015842303A8D900BAA04A /* MagicButton.swift */,
+				269015862303A8E200BAA04A /* MagicImage.swift */,
+				269015882303A8EE00BAA04A /* MagicText.swift */,
+				2690158A2303A8FF00BAA04A /* MagicNavigationBar.swift */,
+				26F51D8B23A383DE008B091A /* MagicSvga.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		26207DE8235EDA160063EC00 /* transform */ = {
+			isa = PBXGroup;
+			children = (
+				26207DE9235EDA320063EC00 /* WidgetsTranform.swift */,
+				26E0638423A33CE300809901 /* WidgetTranform.swift */,
+			);
+			path = transform;
+			sourceTree = "<group>";
+		};
+		26865310237E381A0064460F /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				269F9704237EAA9700F7A01C /* CollectionViewWaterfallLayout.swift */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		26865313237E49F10064460F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				26865314237E4A0D0064460F /* CarouselDotsView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		26B241D422F42E7C00E01565 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				26CDF78E23A24F9900EA8CFD /* request */,
+				26B241D522F42E7C00E01565 /* widget */,
+				26B241D622F42E7C00E01565 /* modelenum */,
+				26B241D722F42E7C00E01565 /* json */,
+				26B241DD22F42FD300E01565 /* MagicPagerModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		26B241D522F42E7C00E01565 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				26207DE8235EDA160063EC00 /* transform */,
+				26D4A46A22F43A3000A7CD66 /* base */,
+				26D4A46922F43A3000A7CD66 /* collection */,
+				26D4A46B22F43A6000A7CD66 /* BaseWidgetModel.swift */,
+				26D4A47922F4438600A7CD66 /* BaseCollectionWidgetModel.swift */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		26B241D622F42E7C00E01565 /* modelenum */ = {
+			isa = PBXGroup;
+			children = (
+				26D4A46D22F43AA400A7CD66 /* MagicEnum.swift */,
+			);
+			path = modelenum;
+			sourceTree = "<group>";
+		};
+		26B241D722F42E7C00E01565 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				267FCBF82302C3DE0085C5F8 /* WidgetModelMapping.swift */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		26B241D822F42E7C00E01565 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				2613CFCC22FBC94000703388 /* LengthUtil.swift */,
+				267EAB872320FCFF00AFCC77 /* ColorUtil.swift */,
+				2602A8CD239E836A00AB1A47 /* ReuseUtil.swift */,
+				2685893B23A0D2500058256C /* UIViewExten.swift */,
+				264354B323A7718A0078D4F1 /* URLExtension.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		26B241D922F42E7C00E01565 /* state */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = state;
+			sourceTree = "<group>";
+		};
+		26B241DA22F42E7C00E01565 /* script */ = {
+			isa = PBXGroup;
+			children = (
+				2616377F239F7CEF000AFC0C /* JSCoreManager.swift */,
+				26DA400423A8E3FC0035E75A /* JSCoreContext.swift */,
+				26F10E8023A9C46200DF515C /* UIViewControllerExtension.swift */,
+			);
+			path = script;
+			sourceTree = "<group>";
+		};
+		26B241DB22F42E7C00E01565 /* provider */ = {
+			isa = PBXGroup;
+			children = (
+				2613CFD022FBF6FA00703388 /* ILog.swift */,
+				2613CFD222FBF75A00703388 /* IActionProvider.swift */,
+				2613CFD422FBF79F00703388 /* IMagicProvider.swift */,
+			);
+			path = provider;
+			sourceTree = "<group>";
+		};
+		26B241DC22F42E7C00E01565 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				2613CFD822FBFCE400703388 /* widget */,
+				26D4A48522F44FFC00A7CD66 /* MagicViewController.swift */,
+				26D4A48722F4503E00A7CD66 /* MagicContainerView.swift */,
+				260EFFCE237C100800347E9E /* MagicViewCreator.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		26C7A24922F4201500370369 = {
+			isa = PBXGroup;
+			children = (
+				2684425F23B06887009B3CC3 /* MagicPager.podspec */,
+				26C7A25522F4201500370369 /* magicpager */,
+				26C7A25422F4201500370369 /* Products */,
+				DFA0F24F4F44493FC9E6F25F /* Pods */,
+				69927FFB358C532DD72399CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26C7A25422F4201500370369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C7A25322F4201500370369 /* magicpager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C7A25522F4201500370369 /* magicpager */ = {
+			isa = PBXGroup;
+			children = (
+				26B241D422F42E7C00E01565 /* model */,
+				26B241DB22F42E7C00E01565 /* provider */,
+				26B241DA22F42E7C00E01565 /* script */,
+				26B241D922F42E7C00E01565 /* state */,
+				26B241DC22F42E7C00E01565 /* ui */,
+				26B241D822F42E7C00E01565 /* util */,
+				26C7A25622F4201500370369 /* magicpager.h */,
+				26C7A25722F4201500370369 /* Info.plist */,
+				2613CFCA22FBC86B00703388 /* MagicPagerManager.swift */,
+				26A44A2823AC6D4C0044B892 /* MagicPager.modulemap */,
+			);
+			path = magicpager;
+			sourceTree = "<group>";
+		};
+		26CDF78E23A24F9900EA8CFD /* request */ = {
+			isa = PBXGroup;
+			children = (
+				26CDF78F23A24FAE00EA8CFD /* PagerRequestData.swift */,
+			);
+			path = request;
+			sourceTree = "<group>";
+		};
+		26D4A46922F43A3000A7CD66 /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				26D4A47B22F443BC00A7CD66 /* ListWidgetModel.swift */,
+				26D4A47D22F4465E00A7CD66 /* CarouselWidgetModel.swift */,
+				26D4A47F22F4483400A7CD66 /* FlexboxWidgetModel.swift */,
+				26D4A48122F44A3800A7CD66 /* GridWidgetModel.swift */,
+				26D4A48322F44A9500A7CD66 /* FrameWidgetModel.swift */,
+				2674184D237D416A006A6250 /* SliderWidgetModel.swift */,
+				26C9B41E239A51B300060F5B /* LinearWidgetModel.swift */,
+			);
+			path = collection;
+			sourceTree = "<group>";
+		};
+		26D4A46A22F43A3000A7CD66 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				26D4A46F22F4422F00A7CD66 /* BlankWidgetModel.swift */,
+				26D4A47122F442D200A7CD66 /* ButtonWidgetModel.swift */,
+				26D4A47322F442E000A7CD66 /* ImageWidgetModel.swift */,
+				26D4A47522F442EB00A7CD66 /* TextWidgetModel.swift */,
+				26D4A47722F442FD00A7CD66 /* NavigationBarModel.swift */,
+				26F51D8923A37D6B008B091A /* SvgaWidgetModel.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		69927FFB358C532DD72399CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CD8EB17258D20C018305E81 /* Pods_magicpager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFA0F24F4F44493FC9E6F25F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DE1FACD8E6B40E8D2851E /* Pods-magicpager.debug.xcconfig */,
+				50B71D5898228C10BE7C7F02 /* Pods-magicpager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26C7A24E22F4201500370369 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C7A25822F4201500370369 /* magicpager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26C7A25222F4201500370369 /* magicpager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C7A25B22F4201500370369 /* Build configuration list for PBXNativeTarget "magicpager" */;
+			buildPhases = (
+				46B49DF757EE9738E62BC519 /* [CP] Check Pods Manifest.lock */,
+				26C7A24E22F4201500370369 /* Headers */,
+				26C7A24F22F4201500370369 /* Sources */,
+				26C7A25022F4201500370369 /* Frameworks */,
+				26C7A25122F4201500370369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magicpager;
+			productName = magicpager;
+			productReference = 26C7A25322F4201500370369 /* magicpager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26C7A24A22F4201500370369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Sven;
+				TargetAttributes = {
+					26C7A25222F4201500370369 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = 26C7A24D22F4201500370369 /* Build configuration list for PBXProject "magicpager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26C7A24922F4201500370369;
+			productRefGroup = 26C7A25422F4201500370369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C7A25222F4201500370369 /* magicpager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C7A25122F4201500370369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CDF78A23A2411200EA8CFD /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46B49DF757EE9738E62BC519 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-magicpager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C7A24F22F4201500370369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2613CFD322FBF75A00703388 /* IActionProvider.swift in Sources */,
+				269015812303A88300BAA04A /* IMagic.swift in Sources */,
+				26E0638523A33CE300809901 /* WidgetTranform.swift in Sources */,
+				26D4A48022F4483400A7CD66 /* FlexboxWidgetModel.swift in Sources */,
+				269015952303A96300BAA04A /* MagicList.swift in Sources */,
+				269015932303A95A00BAA04A /* MagicGrid.swift in Sources */,
+				269015912303A95000BAA04A /* MagicFrame.swift in Sources */,
+				2613CFD122FBF6FA00703388 /* ILog.swift in Sources */,
+				26F51D8C23A383DE008B091A /* MagicSvga.swift in Sources */,
+				26D4A48622F44FFC00A7CD66 /* MagicViewController.swift in Sources */,
+				26D4A48822F4503E00A7CD66 /* MagicContainerView.swift in Sources */,
+				2685893C23A0D2500058256C /* UIViewExten.swift in Sources */,
+				2613CFCB22FBC86B00703388 /* MagicPagerManager.swift in Sources */,
+				269015872303A8E200BAA04A /* MagicImage.swift in Sources */,
+				269015892303A8EE00BAA04A /* MagicText.swift in Sources */,
+				26D4A47222F442D200A7CD66 /* ButtonWidgetModel.swift in Sources */,
+				260EFFCF237C100800347E9E /* MagicViewCreator.swift in Sources */,
+				26163780239F7CEF000AFC0C /* JSCoreManager.swift in Sources */,
+				26C9B421239A543000060F5B /* MagicLinear.swift in Sources */,
+				26CDF79023A24FAE00EA8CFD /* PagerRequestData.swift in Sources */,
+				26D4A47822F442FD00A7CD66 /* NavigationBarModel.swift in Sources */,
+				26D4A46E22F43AA400A7CD66 /* MagicEnum.swift in Sources */,
+				26741850237D42F5006A6250 /* MagicSilder.swift in Sources */,
+				269015832303A89B00BAA04A /* ICollectionMagic.swift in Sources */,
+				26207DEA235EDA320063EC00 /* WidgetsTranform.swift in Sources */,
+				26741852237D630E006A6250 /* MagicCollectionCell.swift in Sources */,
+				2690158D2303A91E00BAA04A /* MagicCarousel.swift in Sources */,
+				2613CFCD22FBC94000703388 /* LengthUtil.swift in Sources */,
+				26D4A47622F442EB00A7CD66 /* TextWidgetModel.swift in Sources */,
+				264354B423A7718A0078D4F1 /* URLExtension.swift in Sources */,
+				26D4A46C22F43A6000A7CD66 /* BaseWidgetModel.swift in Sources */,
+				2674184E237D416A006A6250 /* SliderWidgetModel.swift in Sources */,
+				262ECED1230A422F00FB1B29 /* MagicCell.swift in Sources */,
+				26DA400523A8E3FC0035E75A /* JSCoreContext.swift in Sources */,
+				267FCBF92302C3DE0085C5F8 /* WidgetModelMapping.swift in Sources */,
+				26D4A47422F442E000A7CD66 /* ImageWidgetModel.swift in Sources */,
+				2690158F2303A94600BAA04A /* MagicFlexboxView.swift in Sources */,
+				26D4A47A22F4438600A7CD66 /* BaseCollectionWidgetModel.swift in Sources */,
+				267EAB882320FCFF00AFCC77 /* ColorUtil.swift in Sources */,
+				26D4A47C22F443BC00A7CD66 /* ListWidgetModel.swift in Sources */,
+				2690157F2303A86000BAA04A /* MagicBlank.swift in Sources */,
+				26C9B41F239A51B300060F5B /* LinearWidgetModel.swift in Sources */,
+				26F10E8123A9C46200DF515C /* UIViewControllerExtension.swift in Sources */,
+				26A44A2923AC6D4C0044B892 /* MagicPager.modulemap in Sources */,
+				26D4A47022F4422F00A7CD66 /* BlankWidgetModel.swift in Sources */,
+				269015852303A8D900BAA04A /* MagicButton.swift in Sources */,
+				269F9705237EAA9700F7A01C /* CollectionViewWaterfallLayout.swift in Sources */,
+				26F51D8A23A37D6B008B091A /* SvgaWidgetModel.swift in Sources */,
+				26D4A47E22F4465E00A7CD66 /* CarouselWidgetModel.swift in Sources */,
+				2613CFD522FBF79F00703388 /* IMagicProvider.swift in Sources */,
+				26D4A48422F44A9500A7CD66 /* FrameWidgetModel.swift in Sources */,
+				26D4A48222F44A3800A7CD66 /* GridWidgetModel.swift in Sources */,
+				26865315237E4A0D0064460F /* CarouselDotsView.swift in Sources */,
+				2602A8CE239E836A00AB1A47 /* ReuseUtil.swift in Sources */,
+				2690158B2303A8FF00BAA04A /* MagicNavigationBar.swift in Sources */,
+				26B241DE22F42FD300E01565 /* MagicPagerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26C7A25922F4201500370369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26C7A25A22F4201500370369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26C7A25C22F4201500370369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6DE1FACD8E6B40E8D2851E /* Pods-magicpager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = magicpager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MODULEMAP_FILE = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sven.magicpager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26C7A25D22F4201500370369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B71D5898228C10BE7C7F02 /* Pods-magicpager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = magicpager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MODULEMAP_FILE = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sven.magicpager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C7A24D22F4201500370369 /* Build configuration list for PBXProject "magicpager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C7A25922F4201500370369 /* Debug */,
+				26C7A25A22F4201500370369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C7A25B22F4201500370369 /* Build configuration list for PBXNativeTarget "magicpager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C7A25C22F4201500370369 /* Debug */,
+				26C7A25D22F4201500370369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26C7A24A22F4201500370369 /* Project object */;
+}
